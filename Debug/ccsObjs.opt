@@ -1,0 +1,1 @@
+"./LM94022_temperature_sensor.obj" "./MCP9700A_temp_sensor.obj" "./TMP112_I2C_temperature_sensor.obj" "./main.obj" "../lnk_msp430fr5739.cmd" -l"./configPkg/linker.cmd" -l"libmath.a" -l"libc.a" 
