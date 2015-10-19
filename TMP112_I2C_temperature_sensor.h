@@ -10,6 +10,7 @@
 
 #include <driverlib/MSP430FR57xx/driverlib.h>
 
+
 #define ALERT_PORT 		GPIO_PORT_P2
 #define ALERT_PIN		GPIO_PIN3
 
@@ -32,5 +33,6 @@
 
 bool temperatureStatus (void);
 float measureTMP112(void);
+void configTMP112(void);
 
 #endif /* TMP112_I2C_TEMPERATURE_SENSOR_H_ */
